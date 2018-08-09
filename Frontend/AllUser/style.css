@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.users{
+	width:700px;
+	margin:0 auto;
+	background: #E6E6FA;
+	border-radius: 20px;
+	border:1px solid #F08080;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.name{
+	border: 1px solid #F08080;
+	border-radius: 5px;
+}

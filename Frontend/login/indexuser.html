@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/styletwo.css">
+</head>
+<body>
+	
+
+	<div class="user">
+		<div class="loginn">login : <p class="log"> </p></div>
+		<div class="name">Name : <p class="nm"></p> </div>
+		<div class="surname" >Surname : <p class="snm"> </p></div>
+		<div class="age">Age : <p class="ag"></p> </div>
+		<div class="update"> update : </br>
+			<span>login</span>
+			<input type="text" id="log">
+			<span>name :</span>
+			<input type="text" id="namenew" >,</br> 
+			<span>surname </span>
+			<input type="text" id="surnamenew" >,</br> 
+			<span>age :</span>
+		    <input type="text" id="agenew" >,</br>
+		    <span>oldpassword:</span>
+		    <input type="text" id="oldpassword" >,</br>
+		    <span>newpassword:</span>
+		    <input type="text" id="newpassword" >,</br>
+		    <div class="updt" id = "upd">update</div>
+		</div>	
+
+		<div class="delete">
+			<p><span>login : </span><input type="text" id="dellog"></p>
+			<p><span>password : </span><input type="text" id="delpass"></p>
+			<div id="del">delete</div>
+		</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.json2html/1.2.0/jquery.json2html.min.js"></script>
+	<script type="text/javascript" src="script/scriptUser.js"></script>
+</body>
+</html>

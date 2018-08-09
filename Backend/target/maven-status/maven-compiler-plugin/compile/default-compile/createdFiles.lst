@@ -1,0 +1,6 @@
+com/mycompany/registv2/Dao/Type/User.class
+com/mycompany/registv2/Controller/UserController.class
+com/mycompany/registv2/Config/AppInitialization.class
+com/mycompany/registv2/Config/AppConfig.class
+com/mycompany/registv2/Service/UserServiceImpl.class
+com/mycompany/registv2/Service/UserService.class
